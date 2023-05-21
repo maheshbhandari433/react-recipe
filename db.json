@@ -1,49 +1,11 @@
 {
   "recipes": [
     {
-      "name": "Recipe title",
-      "author": "sdkjksd",
-      "country": "Austria",
-      "description": "sdkjksd skdjkdsj sdkjkds ksdjdk",
-      "image": "https://media.istockphoto.com/id/1375040235/fi/valokuva/terveellinen-tuore-hedelm%C3%A4-ja-vihannessalaattilevy.jpg?s=612x612&w=0&k=20&c=CGHvaw7Q2VmzVJqBkeITpqdMWoSR038uniRmPJG2uAU=",
-      "ingredients": [
-        {
-          "name": "apple",
-          "amount": "1 kg"
-        },
-        {
-          "name": "grapes",
-          "amount": "0.5 kg"
-        }
-      ],
-      "instructions": "sdkjd sdnjkds sdndsknd",
-      "id": 1
-    },
-    {
-      "name": "Another recipe",
-      "author": "sjddkskd",
-      "country": "Japan",
-      "description": "sdjhd sjndsk sdjnsd sdkndsks dsknds",
-      "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVjaXBlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1200&q=60",
-      "ingredients": [
-        {
-          "name": "sdjd",
-          "amount": "sdnkds"
-        },
-        {
-          "name": "sdmd",
-          "amount": "sdknd"
-        }
-      ],
-      "instructions": "sdkjd sdkdk skdnmdkd sdkndkds sdknd",
-      "id": 2
-    },
-    {
       "name": "Apple Salad",
       "author": "sdkjksd",
       "country": "Austria",
       "description": "A delicious and refreshing salad made with fresh apples and grapes.",
-      "image": "https://media.istockphoto.com/id/1375040235/fi/valokuva/terveellinen-tuore-hedelm%C3%A4-ja-vihannessalaattilevy.jpg?s=612x612&w=0&k=20&c=CGHvaw7Q2VmzVJqBkeITpqdMWoSR038uniRmPJG2uAU=",
+      "image": "https://media.istockphoto.com/id/1253857852/fi/valokuva/omenasalaattia-basilikalla-rusinoilla-ja-sinisipuleilla.jpg?s=612x612&w=0&k=20&c=E6aXiipSYzqWSGycaY2m7nkmJcG7G9upTQQr44erNNs=",
       "ingredients": [
         {
           "name": "apple",
@@ -56,7 +18,86 @@
       ],
       "instructions": "Combine the sliced apples and grapes in a bowl. Toss gently and serve chilled.",
       "id": 3
+    },
+    {
+      "name": "Chocolate Cake",
+      "author": "abcdefg",
+      "country": "United States",
+      "description": "A rich and decadent chocolate cake that will satisfy your sweet tooth.",
+      "image": "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "ingredients": [
+        {
+          "name": "Flour",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Sugar",
+          "amount": "1.5 cups"
+        },
+        {
+          "name": "Cocoa Powder",
+          "amount": "3/4 cup"
+        },
+        {
+          "name": "Eggs",
+          "amount": "3"
+        },
+        {
+          "name": "Milk",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Butter",
+          "amount": "1/2 cup"
+        },
+        {
+          "name": "Baking Powder",
+          "amount": "1.5 teaspoons"
+        }
+      ],
+      "instructions": "Preheat the oven to 180°C. In a mixing bowl, combine the flour, sugar, cocoa powder, and baking powder. In a separate bowl, whisk together the eggs, milk, and melted butter. Gradually add the wet ingredients to the dry ingredients and mix until well combined. Pour the batter into a greased cake pan and bake for 30-35 minutes. Let it cool before serving.",
+      "id": 4
+    },
+    {
+      "name": "Tomato Pasta",
+      "author": "xyz123",
+      "country": "Italy",
+      "description": "A classic Italian pasta dish with a flavorful tomato sauce.",
+      "image": "https://images.pexels.com/photos/6287494/pexels-photo-6287494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "amount": "250 grams"
+        },
+        {
+          "name": "Tomatoes",
+          "amount": "4"
+        },
+        {
+          "name": "Garlic",
+          "amount": "2 cloves"
+        },
+        {
+          "name": "Olive Oil",
+          "amount": "2 tablespoons"
+        },
+        {
+          "name": "Basil Leaves",
+          "amount": "a handful"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        },
+        {
+          "name": "Pepper",
+          "amount": "to taste"
+        }
+      ],
+      "instructions": "Cook the pasta according to package instructions. In a pan, heat olive oil and sauté minced garlic until fragrant. Add chopped tomatoes, salt, and pepper. Cook until the tomatoes break down and form a sauce. Add cooked pasta to the sauce and toss well. Garnish with fresh basil leaves before serving.",
+      "id": 5
     }
+    
     
 
   ]
