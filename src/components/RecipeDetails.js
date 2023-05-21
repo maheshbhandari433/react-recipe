@@ -58,13 +58,13 @@ const RecipeDetails = ({ recipes }) => {
       <h2 className="my-4">{name}</h2>
       <div className="row">
       <div className="col-lg-4 position-relative">
-  <img src={image} className="img-fluid" alt={name} />
+  <img src={image} className="img-fluid recipe-image" alt={name} />
   {flagUrl && (
     <img src={flagUrl} alt={`${country} flag`} className="flag-icon" />
   )}
 </div>
         <div className="col-lg-8">
-          <h4>Recipe Details</h4>
+          <h4 className="py-3">Recipe Details</h4>
           <p>Author: {author}</p>
           <p>Country: {country}</p>
           <p>Description: {description}</p>
@@ -76,7 +76,7 @@ const RecipeDetails = ({ recipes }) => {
           <li key={index}>{ingredient.name} - {ingredient.amount}</li>
         ))}
       </ul>
-      
+
         </div>
       </div>
     </div>

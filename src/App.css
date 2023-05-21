@@ -45,4 +45,10 @@
   .banner-text p {
     font-size: 1.2rem;
   }
+
+  .recipe-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
   
