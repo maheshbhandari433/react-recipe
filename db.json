@@ -1,0 +1,63 @@
+{
+  "recipes": [
+    {
+      "name": "Recipe title",
+      "author": "sdkjksd",
+      "country": "Austria",
+      "description": "sdkjksd skdjkdsj sdkjkds ksdjdk",
+      "image": "https://media.istockphoto.com/id/1375040235/fi/valokuva/terveellinen-tuore-hedelm%C3%A4-ja-vihannessalaattilevy.jpg?s=612x612&w=0&k=20&c=CGHvaw7Q2VmzVJqBkeITpqdMWoSR038uniRmPJG2uAU=",
+      "ingredients": [
+        {
+          "name": "apple",
+          "amount": "1 kg"
+        },
+        {
+          "name": "grapes",
+          "amount": "0.5 kg"
+        }
+      ],
+      "instructions": "sdkjd sdnjkds sdndsknd",
+      "id": 1
+    },
+    {
+      "name": "Another recipe",
+      "author": "sjddkskd",
+      "country": "Japan",
+      "description": "sdjhd sjndsk sdjnsd sdkndsks dsknds",
+      "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVjaXBlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1200&q=60",
+      "ingredients": [
+        {
+          "name": "sdjd",
+          "amount": "sdnkds"
+        },
+        {
+          "name": "sdmd",
+          "amount": "sdknd"
+        }
+      ],
+      "instructions": "sdkjd sdkdk skdnmdkd sdkndkds sdknd",
+      "id": 2
+    },
+    {
+      "name": "Apple Salad",
+      "author": "sdkjksd",
+      "country": "Austria",
+      "description": "A delicious and refreshing salad made with fresh apples and grapes.",
+      "image": "https://media.istockphoto.com/id/1375040235/fi/valokuva/terveellinen-tuore-hedelm%C3%A4-ja-vihannessalaattilevy.jpg?s=612x612&w=0&k=20&c=CGHvaw7Q2VmzVJqBkeITpqdMWoSR038uniRmPJG2uAU=",
+      "ingredients": [
+        {
+          "name": "apple",
+          "amount": "1 kg"
+        },
+        {
+          "name": "grapes",
+          "amount": "0.5 kg"
+        }
+      ],
+      "instructions": "Combine the sliced apples and grapes in a bowl. Toss gently and serve chilled.",
+      "id": 3
+    }
+    
+
+  ]
+}
