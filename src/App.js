@@ -2,9 +2,9 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AddRecipe from './components/AddRecipe';
-import RecipeList from './components/RecipeList';
-import Home from './components/Home';
-import RecipeDetails from './components/RecipeDetails';
+import RecipeList from './pages/RecipeList';
+import Home from './pages/Home';
+import RecipeDetails from './pages/RecipeDetails';
 
 const App = () => {
   const [recipes, setRecipes] = useState([]);

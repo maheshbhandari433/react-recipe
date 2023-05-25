@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import FetchCountryFlag from './FetchCountryFlag'
+import FetchCountryFlag from '../components/FetchCountryFlag'
 
 import '../App.css'
 
@@ -64,7 +64,7 @@ const RecipeDetails = ({ recipes }) => {
   )}
 </div>
         <div className="col-lg-8">
-          <h4 className="py-3">Recipe Details</h4>
+          <h4>Recipe Details</h4>
           <p>Author: {author}</p>
           <p>Country: {country}</p>
           <p>Description: {description}</p>

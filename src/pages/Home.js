@@ -1,8 +1,10 @@
 import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import FetchCountryFlag from './FetchCountryFlag';
+import FetchCountryFlag from '../components/FetchCountryFlag';
 
 import '../App.css'
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 const Home = () => {
   const [latestRecipes, setLatestRecipes] = useState([]);
@@ -50,25 +52,19 @@ const Home = () => {
 
   return (
     <div>
-      {/* Navigation links */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
-          <Link className="navbar-brand" to="/">Home</Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to="/recipes">Recipes</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/add">Add Recipe</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+{/* Navigation links */}
+<Navbar bg="light" expand="lg">
+  <div className="container">
+    <Navbar.Brand href="/">Home</Navbar.Brand>
+    <Navbar.Toggle aria-controls="navbarNav" />
+    <Navbar.Collapse id="navbarNav">
+      <Nav className="ml-auto">
+        <Nav.Link href="/recipes">Recipes</Nav.Link>
+        <Nav.Link href="/add">Add Recipe</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </div>
+</Navbar>
 
       {/* Cover video */}
       <div className="cover-video">
