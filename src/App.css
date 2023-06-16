@@ -51,4 +51,13 @@
     height: 300px;
     object-fit: cover;
   }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    border: none;
+  }
   

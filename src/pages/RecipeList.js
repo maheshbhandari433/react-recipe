@@ -18,7 +18,7 @@ const RecipeList = () => {
 
     return (
       <div>
-         <h1 className="d-flex justify-content-center">Welcome to Recipes</h1>
+         <h1 className="d-flex justify-content-center my-5">Welcome to Recipes</h1>
         <div className="card-container">
           {recipes.map((recipe, index) => (
             <div className="card" key={index}>
